@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="AspNetRoleClaims.sql" />
+    <Build Include="AspNetRoles.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\UserDB_20201225_18-51-37.dacpac" />

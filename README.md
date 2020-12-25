@@ -25,4 +25,4 @@ Após instalação do SQL Server Data Tools para criar o projeto, abra o Visual 
 Existe uma categoria de instalação chamada “SQL Server” e uma opção de ```SQL Server Database Project```.
 
 
-
+![](data/01-1.jpg)

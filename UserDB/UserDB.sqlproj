@@ -61,8 +61,11 @@
   <ItemGroup>
     <Build Include="AspNetRoleClaims.sql" />
     <Build Include="AspNetRoles.sql" />
+    <Build Include="GetAllRules.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\UserDB_20201225_18-51-37.dacpac" />
+    <None Include="Snapshots\UserDB_20201225_19-03-05.dacpac" />
+    <None Include="Snapshots\UserDB_20201225_19-10-02.dacpac" />
   </ItemGroup>
 </Project>

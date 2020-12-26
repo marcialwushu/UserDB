@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>UserDB</Name>
+    <Name>Learning</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{c148f99d-6197-4f64-93d9-de3f31840d2e}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <ProjectGuid>{f0bbb39a-be2b-4bce-9f4a-451d8b86c06c}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>UserDB</RootNamespace>
-    <AssemblyName>UserDB</AssemblyName>
+    <RootNamespace>Learning</RootNamespace>
+    <AssemblyName>Learning</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -56,18 +56,5 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Snapshots" />
-    <Folder Include="Tables" />
-    <Folder Include="Stored Procedures" />
-  </ItemGroup>
-  <ItemGroup>
-    <Build Include="Tables\AspNetRoles.sql" />
-    <Build Include="Tables\AspNetRoleClaims.sql" />
-    <Build Include="Stored Procedures\GetAllRules.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Snapshots\UserDB_20201225_18-51-37.dacpac" />
-    <None Include="Snapshots\UserDB_20201225_19-03-05.dacpac" />
-    <None Include="Snapshots\UserDB_20201225_19-10-02.dacpac" />
   </ItemGroup>
 </Project>
